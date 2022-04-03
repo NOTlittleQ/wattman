@@ -1,0 +1,4 @@
+1.找到/home/ma文件夹下所有的"*_gt.json*"格式的文件
+find /home/ma -name "*_gt.json*"
+2.找到某文件夹下所有"*_gt.json*"格式文件的数量
+ls -lR|grep "*_gt.json*" |wc -l
